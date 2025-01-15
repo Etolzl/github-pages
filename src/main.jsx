@@ -15,13 +15,13 @@ createRoot(document.getElementById('root')).render(
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import Login from './Login.jsx';  // Cambiar a Login en vez de App
+import App from './App.jsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <BrowserRouter>
-            <Login />  // Cambiar aquí para renderizar Login
+            <App />
         </BrowserRouter>
     </React.StrictMode>
 );
