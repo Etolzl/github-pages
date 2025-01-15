@@ -1,0 +1,24 @@
+.welcome-container {
+    overflow: hidden; /* Evita desplazamientos inesperados */
+    min-height: 100vh;  /* Asegura que ocupe al menos toda la altura de la pantalla */
+    width: 100%;  /* Asegura que ocupe todo el ancho */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  /* Garantiza que se extienda a través de la pantalla */
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.logo {
+    width: 400px; /* Ajusta este tamaño según sea necesario */
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #8AB545;
+    text-align: center;
+}
